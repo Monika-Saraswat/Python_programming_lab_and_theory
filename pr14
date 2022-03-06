@@ -1,0 +1,14 @@
+"""You have to calculate the basic salary of an employee """
+bs=int(input("Enter the basic salary :- "))
+if(bs<=10000):
+    hra=bs*0.8
+    da=bs*0.9
+    print("The salary of an employee = ",(bs+hra+da))
+elif(bs>10000 and bs<=20000):
+    hra=bs*0.85
+    da=bs*0.9
+    print("The salary of an employee = ",(bs+hra+da))
+else:
+    hra=bs*0.95
+    da=bs*0.95
+    print("The salary of an employee = ",(bs+hra+da))
