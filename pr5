@@ -1,0 +1,10 @@
+num=int(input("Enter the University Roll number :- "))
+num=num%1000
+print("The last three digit of university roll number = ",num)
+g=num%10
+num=num//10
+ga=num%10
+num=num//10
+gb=num%10
+c=g+gb+ga
+print("The sum of last three digit of university roll number = ",c)
