@@ -1,0 +1,3 @@
+num=int(input("Enter the nubmer :- "))
+product=(num<<5)-num
+print("After multiplying by 31 = ",product)
