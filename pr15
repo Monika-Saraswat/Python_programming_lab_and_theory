@@ -1,0 +1,4 @@
+"""Program to calculate the maximum runs which can a player can score """
+over=int(input("Enter the number of overs :- "))
+run=(over-1)*33+36
+print("The maximum runs are ",run)
