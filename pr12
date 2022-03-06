@@ -1,0 +1,9 @@
+"""Program to calculate profit or loss"""
+a=int(input("Enter the cost price :- "))
+b=int(input("Enter the selling price :- "))
+if(a>b):
+    loss=a-b
+    print("%d is loss"%loss)
+else:
+    profit=b-a
+    print("%d is profit"%profit)
