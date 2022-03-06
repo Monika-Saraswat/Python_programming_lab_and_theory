@@ -1,0 +1,7 @@
+"""Program to calculate number of chickens and rabbits"""
+legs=int(input("Enter the total number of legs :- "))
+heads=int(input("Enter the total number of heads :- "))
+y=(4*heads-legs)//2
+x=heads-y
+print("total number of rabbits = ",x)
+print("total number of chickens = ",y)
