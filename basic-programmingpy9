@@ -1,0 +1,4 @@
+#program to find the hypotenuse#
+b=int(input("Enter the base of right angled triangle :- "))
+h=int(input("Enter the height of right angled triangle :- "))
+print("The hypotenuse of right angled triangle = ",((h**2)+(b**2))**(1/2))
