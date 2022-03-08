@@ -1,0 +1,5 @@
+#Program to calculate the simple interest#
+p=int(input("Enter the principal : "))
+r=int(input("Enter the rate of interest : "))
+t=int(input("Enter the time period : "))
+print("The simple interest = ",(p*r*t)/100)
