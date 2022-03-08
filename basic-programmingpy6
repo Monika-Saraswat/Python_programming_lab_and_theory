@@ -1,0 +1,4 @@
+#Program to find power#
+a=int(input("Enter the base :- "))
+b=int(input("Enter the exponent :- "))
+print("Result = ",a**b)
