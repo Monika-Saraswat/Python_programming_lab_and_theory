@@ -1,0 +1,6 @@
+#program to find the number of tiles#
+a=int(input("Enter the length of floor :- "))
+b=int(input("Enter the breadth of floor :- "))
+c=int(input("Enter the length of tile :- "))
+d=int(input("Enter the breadth of tile :- "))
+print("Number of tiles = ",(a*b)/(c*d))
