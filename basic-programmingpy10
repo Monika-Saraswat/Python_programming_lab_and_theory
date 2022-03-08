@@ -1,0 +1,7 @@
+#program to swap the entered number#
+a=int(input("Enter the first number :- "))
+b=int(input("Enter the second number :- "))
+a,b=b,a
+print("After swapping the numbers")
+print("The first number becomes : ",a)
+print("The second number becomes : ",b)
