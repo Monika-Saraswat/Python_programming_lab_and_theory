@@ -1,4 +1,4 @@
 #Program two subtract entered integer values#
 a=int(input("Enter the integer :- "))
 b=int(input("Enter the integer :- "))
-print("The sum of entered integer = ",a-b)
+print("The result = ",a-b)
