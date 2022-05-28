@@ -1,0 +1,19 @@
+"There are three people, and each of them has an unbiased 6-sided die. The result of rolling a die will be a number between 1 and 6 (inclusive) with equal probability.
+The three people throw their dice simultaneously. In this game, the third person wins only if his number is strictly greater than the sum of the other two numbers. Given that the first person rolls the value X and the second person rolls the value Y, what is the probability the third person will win?"
+"INPUT FORMAT"
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+Each test case contains two integers X and Y.
+"OUTPUT FORMAT"
+For each test case, output the probability that the third person wins.
+Your answer will be considered correct if its absolute error doesn't exceed 10−6.
+"CODE"
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    c=x+y
+    d=0
+    l=[1,2,3,4,5,6]
+    for i in l:
+        if c<i:
+            d+=1
+    d=d/6
+    print('%.6f'%d)
