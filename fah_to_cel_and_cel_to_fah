@@ -1,0 +1,7 @@
+#WAP TO CONVERT FAHRENHEIT TO CELSIUS AND CELSIUS TO FAHRENHEIT
+cel=int(input("Enter the temperature in celsius :- "))
+fah=int(input("Enter the temperature in fahrenheit :- "))
+f=1.8*cel+32
+c=(fah-32)*(5/9)
+print("The temperature in fahrenheit is ",f)
+print("The temperature in celsius is ",c)
