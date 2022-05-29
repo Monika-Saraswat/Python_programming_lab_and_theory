@@ -1,0 +1,22 @@
+"PROGRAM FOR ANAGRAM WITH FUNCTION"
+s1=input()
+s2=input()
+if sorted(s1)==sorted(s2):
+    print("ANAGRAM")
+else:
+    print("NOT ANAGRAM")
+"PROGRAM FOR ANAGRAM WITHOUT FUNCTION"
+s1=input()
+s2=input()
+#for finding the length of string
+c,d=0,0
+for i in s1:
+    d+=1
+for i in s1:
+    for j in s2:
+        if i==j:
+            c+=1
+if c==d:
+    print("ANAGRAM")
+else:
+    print("NOT ANAGRAM")
