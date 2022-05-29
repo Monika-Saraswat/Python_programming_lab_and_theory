@@ -1,0 +1,8 @@
+#Factorial using function
+def fact(x):
+    pro=1
+    for i in range(1,(x+1)):
+        pro*=i
+    return pro
+n=int(input())
+print(fact(n))
