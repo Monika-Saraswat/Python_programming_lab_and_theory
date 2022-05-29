@@ -1,0 +1,3 @@
+c=int(input())
+a=tuple(list(map(int,input().split())))[:c]
+print(sum(a))
