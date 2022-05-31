@@ -1,0 +1,10 @@
+A,B=map(int,input().split())
+    a1=A
+    b1=B
+    while (B!=0):
+        t=B
+        B=A%B
+        A=t
+    gcd=A
+    lcm=(a1*b1)/gcd
+    print(gcd,int(lcm))
