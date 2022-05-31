@@ -1,0 +1,4 @@
+a=input()
+x=a.lower()
+p=x.count("the")
+print(p)
