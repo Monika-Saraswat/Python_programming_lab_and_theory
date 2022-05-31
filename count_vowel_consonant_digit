@@ -1,0 +1,15 @@
+x=input()
+c,con,d,w=0,0,0,0
+for i in range(len(x)):
+    if x[i]=="A" or x[i]=="a" or x[i]=="E" or x[i]=="e" or x[i]=="I" or x[i]=="i" or x[i]=="u" or x[i]=="U" or x[i]=="O" or x[i]=="o":
+        c+=1
+    elif x[i]==" ":
+        w+=1
+    elif x[i]=="0" or x[i]=="9" or x[i]=="2" or x[i]=="5" or x[i]=="1" or x[i]=="3" or x[i]=="4" or x[i]=="6" or x[i]=="7" or x[i]=="8":
+        d+=1
+    else:
+        con+=1
+print("Total vowels are : ",c)
+print("Total consonants are : ",con)
+print("Total digits are : ",d)
+print("Total whitespaces are : ",w)
