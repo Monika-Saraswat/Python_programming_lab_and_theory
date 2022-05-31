@@ -1,0 +1,12 @@
+p=input("Enter the string.")
+i=0
+count=0
+for i in range(ord('a'),ord('z')+1):
+    r=p.find(chr(i))
+    if(r==-1):
+        print("not pangram")
+        break
+    else:
+        count+=1
+if(count==26):
+    print("panagram.")
