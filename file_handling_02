@@ -1,0 +1,10 @@
+#write the n random numbers between 100 to 200 
+
+import random
+f=open("p.txt",'w')
+n=int(input())
+for i in range(n):
+    c=random.randint(100,200)
+    f.write(str(c))
+    f.write(" ")
+f.close()
