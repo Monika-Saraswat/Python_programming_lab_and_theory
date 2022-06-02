@@ -1,0 +1,8 @@
+try:
+    x=int(input("Enter the integer : "))
+    y=input("Enter the string : ")
+    c=x+y
+except TypeError:
+    print("Error !! TypeError")
+else:
+    print("Program Successfully Executed")
