@@ -1,0 +1,11 @@
+try:
+    l=[2,4,5,67,8]
+    print("Before commiting changes ",l)
+    i=int(input("Enter the index where you want to change : "))
+    x=int(input("Enter the element which you want to add or insert : "))
+    l[i]=x
+    print(l)
+except IndexError:
+    print("Error !! IndexError")
+else:
+    print("Program Successfully Executed")
