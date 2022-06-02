@@ -1,0 +1,6 @@
+try:
+    x=int(input())
+except ValueError:
+    print("Error !! ValueError")
+else:
+    print("Program Successfully Executed")
